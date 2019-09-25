@@ -1,0 +1,76 @@
+body {
+	font-family: jokerman;
+	background-image: url(../../assets/images/back.jpg);
+	background-repeat: repeat-x-y;
+}
+.tombol {
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 20px;
+	position: fixed;
+	border-radius: 25px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+
+}
+.tombol:hover {
+	width: 350px;
+	height: 400px;
+	line-height: 400px;
+	font-size: 20px;
+	border-radius: 25px;
+	z-index: 3;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,1);
+	-moz-box-shadow: 0 0 50px rgba(0,0,0,1);
+	-o-box-shadow: 0 0 50px rgba(0,0,0,1);
+	-ms-box-shadow: 0 0 50px rgba(0,0,0,1);
+}
+.tombol a{
+	color: white;
+	text-decoration: none;
+}
+.tombol:hover a {
+	color: white;
+	text-decoration: none;
+}
+.tbl1 {
+	left: 475px;
+	top: 250px;
+	background-color: black;
+}
+.tbl1:hover {
+	top: 150px;
+	background-color: red;
+}
+.tbl2 {
+	left: 675px;
+	top: 250px;
+	background-color: black;
+}
+.tbl2:hover {
+	left: 475px;
+	top: 150px;
+	background-color: blue;
+}
+
+.judul {
+	text-align: center;
+	border-bottom: 3px solid black;
+	width: 200px;
+	margin-left: 540px;
+}
+h2 {
+	font-size: 27px;
+
+}
+.hay {
+	top: 600px;
+	position: fixed;
+	margin-left: 500px;
+	font-size: 30px;
+}
